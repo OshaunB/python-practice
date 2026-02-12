@@ -1,0 +1,10 @@
+adjective1 = input("How would you describe the zoo in one word? ")
+noun1 = input("What a cool animal you saw? ")
+adjective2 = input("How would you describe that animal? ")
+verb1 = input("What was it doing? ")
+adjective3 = input("How did you feel? ")
+
+print(f"Today I went to  a {adjective1} zoo")
+print(f"In an exhibit I saw a {noun1}")
+print(f"{noun1} was {adjective2} and {verb1}")
+print(f"I was {adjective3}")
