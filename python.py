@@ -1,20 +1,17 @@
-# ACTIVATE RUFF source .venv/bin/activate
+# for loops = execute a block of code a fixed number of times: range, string, sequence
 
-# OR: if one of the condition is true then the entire statement is true
-# temp = 25
-# is_raining = True
+for x in range(1, 21):
+    if x == 13:
+        break
+    else:
+        print(x)
 
-# if temp > 35 or temp < 0 or is_raining:
-#     print("The outdoor event is cancelled")
-# else:
-#     print("The outdoor event is still scheduled")
 
-# AND: all conditions have to be true
-# NOT: inverts the condition
-temp = 0
-is_raining = False
+print("HAPPY NEW YEAR")
 
-if temp > 10 and temp < 30 and not is_raining:
-    print("The outdoor event is on going!")
-else:
-    print("The weather is not good enough!")
+
+# for x in reversed(range(1, 11)):
+#     print(x)
+
+
+# print("HAPPY NEW YEAR")
