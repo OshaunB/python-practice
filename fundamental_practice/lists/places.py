@@ -20,3 +20,29 @@ print(places)
 
 places.sort(reverse=True)
 print(places)
+
+# ----------------------------------------------
+
+languages = ["English", "Mandarin", "Spanish", "French", "Swahili", "Russian"]
+
+removed_language = languages.pop()
+print(removed_language)
+
+print(languages)
+
+languages.append("German")
+print(languages)
+
+languages.reverse()
+print(languages)
+
+languages.sort(reverse=True)
+print(languages)
+
+languages.insert(0, "Arabic")
+print(languages)
+
+languages.sort()
+print(languages)
+
+print(f"Length {len(languages)}")
